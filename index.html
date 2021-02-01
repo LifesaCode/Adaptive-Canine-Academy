@@ -5,17 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adaptive Canine Academy</title>
 </head>
+
+<link rel="stylesheet" href="style.css">
+
 <body>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Contact">Contact</a></li>
+    <nav id="topNavBar" >
+        <ul class="topNavBar" id="topNavBarList">
+            <li id="navVar1">Home</li>
+            <li id="navBar2"><a href="#Services">Services</a></li>
+            <li id="navBar3"><a href="#About">About</a></li>
+            <li id="navBar4"><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
-    <img src="" alt="">
-    <section id="About"> About Me
+
+    <img id="topPic" src="" alt="opening picture">
+
+    <section id="Services" class="servicesSection"> 
+        <h1>Services</h1>
+        <section id="puppy" class="services">
+            <img src="" alt="puppy">
+            <h2 id="puppyTitle" class="serviceName">Puppy</h2>
+            <ul id="PuppyList">
+                <li id="puppy1" class="puppyListItems">Outcome 1</li>
+                <li id="puppy2" class="puppyListItems">Outcome 2</li>
+                <li id="puppy3" class="puppyListItems">Outcome 3</li>
+                <li id="puppy4" class="puppyListItems">Outcome 4</li>
+            </ul>
+        </section>
+
+        <section id="basics" class="services">
+            <img src="" alt="dog pulling" class="serviceImg">
+            <h2 id="basicsTitle" class="serviceName">Basic</h2>
+            <ul id="basicList">
+                <li id="basic1" class="basicListItems">Outcome 1</li>
+                <li id="basic2" class="basicListItems">Outcome 2</li>
+                <li id="basic3" class="basicListItems">Outcome 3</li>
+                <li id="basic4" class="basicListItems">Outcome 4</li>
+            </ul>
+        </section>
+        <section id="intermediate" class="services">
+            <img src="" alt="dog" class="serviceImg">
+            <h2 id="intermediateTitle">Intermediate</h2>
+            <ul id="ntermediateList">
+                <li id="interm1" class="intermListItems">Outcome 1</li>
+                <li id="interm2" class="intermListItems">Outcome 2</li>
+                <li id="interm3" class="intermListItems">Outcome 3</li>
+                <li id="interm4" class="intermListItems">Outcome 4</li>
+            </ul>
+        </section>
+        <section id="advanced" class="services">
+            <img src="" alt="advanced dog" class="serviceImg">
+            <h2 id="advancedTitle">Advanced</h2>
+            <ul id="advancedList">
+                <li id="adv1" class="advListItems">Outcome 1</li>
+                <li id="adv2" class="advListItems">Outcome 2</li>
+                <li id="adv3" class="advListItems">Outcome 3</li>
+                <li id="adv4" class="advListItems">Outcome 4</li>            
+            </ul>
+        </section>
+        <section id="service" class="services">
+            <img src="" alt="service dog" class="serviceImg">
+            <h2 id="serviceTitle">Service Dogs</h2>
+            <ul id="serviceService">
+                <li id="serv1" class="serviceListItems">Outcome 1</li>
+                <li id="serv2" class="serviceListItems">Outcome 2</li>
+                <li id="serv3" class="serviceListItems">Outcome 3</li>
+                <li id="serv4" class="serviceListItems">Outcome 4</li>
+            </ul>
+        </section>
+        <section id="service" class="services">
+            <img src="" alt="private" class="serviceImg">
+            <h2 id="privateTitle">Individual</h2>
+            <ul id="privateService">
+                <li id="private1" class="privateListItems">Outcome 1</li>
+                <li id="private2" class="privateListItems">Outcome 2</li>
+                <li id="private3" class="privateListItems">Outcome 3</li>
+                <li id="private4" class="privateListItems">Outcome 4</li>
+            </ul>
+        </section>
+
+    </section>
+   
+    <hr>
+
+    <section id="About"> About Us
         <article>
             <h1 id="brittanyTitle">Brittany</h1>
             <img id="brittanyPic" src="" alt="Lovely picture of me"/>
@@ -33,49 +106,8 @@
         </article>
     </section>
     
-    <section id="Services" class="servicesSection"> Services
-        <section id="basics" class="basicsSection">
-            <h1 id="basicsTitle">The Basics</h1>
-            <img src="" alt="puppy">
-            <ul id="basicList">Basic Training Curriculum
-                <li id="basic1" class="basicListItems">Outcome 1</li>
-                <li id="basic2" class="basicListItems">Outcome 2</li>
-                <li id="basic3" class="basicListItems">Outcome 3</li>
-                <li id="basic4" class="basicListItems">Outcome 4</li>
-            </ul>
-        </section>
-        <section id="intermediate" class="intermediateServices">
-            <h1 id="intermediateTitle">Intermediate Training</h1>
-            <img src="" alt="dog">
-            <ul id="ntermediateList">Intermediate Training Curriculum
-                <li id="interm1" class="intermListItems">Outcome 1</li>
-                <li id="interm2" class="intermListItems">Outcome 2</li>
-                <li id="interm3" class="intermListItems">Outcome 3</li>
-                <li id="interm4" class="intermListItems">Outcome 4</li>
-            </ul>
-        </section>
-        <section id="advanced" class="advancedServices">
-            <h1 id="advancedTitle">Advanced Training</h1>
-            <img src="" alt="advanced dog">
-            <ul id="advancedList">Advanced Training Curriculum
-                <li id="adv1" class="advListItems">Outcome 1</li>
-                <li id="adv2" class="advListItems">Outcome 2</li>
-                <li id="adv3" class="advListItems">Outcome 3</li>
-                <li id="adv4" class="advListItems">Outcome 4</li>            
-            </ul>
-        </section>
-        <section id="service">
-            <h1 id="serviceTitle">Service Training</h1>
-            <img src="" alt="service dog">
-            <ul id="serviceService">Service Training Currriculum
-                <li id="serv1" class="serviceListItems">Outcome 1</li>
-                <li id="serv2" class="serviceListItems">Outcome 2</li>
-                <li id="serv3" class="serviceListItems">Outcome 3</li>
-                <li id="serv4" class="serviceListItems">Outcome 4</li>
-            </ul>
-        </section>
-    </section>
-    
+    <hr>
+
     <section id="Contact"> Contact Me
         <form>
             <label>Name <input type="text" id="contactName" ></label>   

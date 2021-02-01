@@ -1,0 +1,62 @@
+nav {
+  position: sticky;
+  top:0;
+}
+.topNavBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 1% 2% 1% 2%;
+  font-size: 18pt;
+  background-color: lightblue;
+}
+.topNavBar li {
+  display: inline;
+  padding: 1% 2% 1% 2%;
+}
+ .topNavBar li:hover{
+    background-color:goldenrod;
+ }
+
+ h2 {
+   font-size: 18px;
+ }
+ .basicServices {
+   display: grid;
+   grid-template-columns: 33% 10% auto;
+ }
+ .basicServices h2 {
+   text-align: center;
+   padding: 20% 0 0% 0;
+   border-style: solid;
+   background-color: lightblue;
+   border-color: goldenrod;
+   border-width: 3px;
+   border-radius: 15%;
+ }
+ .intermServices {
+  display: grid;
+  grid-template-columns: 33% 10% auto;
+}
+.intermServices h2 {
+  text-align: center;
+  padding: 20% 0 0% 0;
+  border-style: solid;
+  background-color: lightblue;
+  border-color: goldenrod;
+  border-width: 3px;
+  border-radius: 15%;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 33% 10% auto;
+}
+.services h2 {
+  text-align: center;
+  padding: 20% 0 0% 0;
+  border-style: solid;
+  background-color: lightblue;
+  border-color: goldenrod;
+  border-width: 3px;
+  border-radius: 15%;
+}
