@@ -6,7 +6,7 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 1% 2% 1% 2%;
-  font-size: 18pt;
+  font-size: 14pt;
   background-color: lightblue;
 }
 .topNavBar li {
@@ -21,34 +21,21 @@ nav {
    font-size: 18px;
  }
 
+.card{
+  margin: 20px;
+  box-shadow: 3px 3px 6px 2px lightblue;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
  .card div {
-  text-align:left;
-  padding-left: 20px;
+  margin-right: 20px;
+}
+.card img{
+  margin: 10px;
   width: 60%;
-  border-style: solid;
-  border-color: lightblue;
-  border-width: 5px;
-  border-radius: 10%;
-  
+  flex-shrink: 0;
 }
 
-@media (min-width: 900px) {
-  .card {
-    display: grid;
-    grid-template-columns: 40% auto;
-    margin: 20px;
-  }
-
-  .card div{
-    border-style: none;
-    box-shadow: 3px 3px 6px 2px lightblue;
-  }
-  .card h2{
-    color:deepskyblue;
-  }
-
-  .card img{
-    width: 80%;
-    
-  }
-}
+ 
