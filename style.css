@@ -16,6 +16,23 @@ nav {
  .topNavBar li:hover{
     background-color:goldenrod;
  }
+ #banner {
+  display: flex;
+  flex-direction:column;
+   background-image: url(dog-3564569_1920.jpg);
+   background-size: 70%;
+   background-color: lightblue;
+   color:lightblue;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding: 0% 0 40% 0;
+ }
+ #banner h1{
+   color: rgb(0, 138, 184);
+   z-index: 1;
+   align-self: flex-start;
+   justify-self:;
+ }
 
  h2 {
    font-size: 18px;
